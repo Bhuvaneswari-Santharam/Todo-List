@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body ng-app= "nodeTodos">
+  <h1>
+      Welcome to my Node Todo!!!</h1>  
+      <div ng-controller ="todoController">
+        <div ng-repeat = "todo in todos">
+      
+      <li>{{todo.todo}}-{{todo.isDone}}
+        
+     
+      </li>
+    
+  </div>
+  </div>
+
+  </body>
+  </html>
